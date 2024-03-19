@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="javazoom.jl.player" module="player-caller" revision="working" status="release" publication="20140422200807" default="true"/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="player-caller" type="jar" ext="jar" conf="default"/>
+	</publications>
+	<dependencies>
+		<dependency org="javazoom.jl.player" name="player" rev="latest.integration" conf="default->runtime,x86.32.windows"/>
+	</dependencies>
+</ivy-module>

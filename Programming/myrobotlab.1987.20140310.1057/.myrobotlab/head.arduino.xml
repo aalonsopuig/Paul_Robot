@@ -1,0 +1,9 @@
+<arduino>
+   <name>head.arduino</name>
+   <allowDisplay>true</allowDisplay>
+   <portName>COM3</portName>
+   <rate>57600</rate>
+   <databits>8</databits>
+   <stopbits>1</stopbits>
+   <parity>0</parity>
+</arduino>

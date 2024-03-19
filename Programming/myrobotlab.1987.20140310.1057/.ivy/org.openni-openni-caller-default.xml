@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.openni"
+		module="openni-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20140422200749"/>
+	<dependencies>
+		<module organisation="org.openni" name="openni">
+			<revision name="1.5.4.0" status="release" pubdate="20140119181226" resolver="public-remote" artresolver="public-remote" downloaded="true" searched="true" default="false" conf="runtime, x86.32.windows" position="0">
+				<metadata-artifact status="successful" details="" size="3291" time="515" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\org.openni\openni\ivy-1.5.4.0.xml" searched="true" original-local-location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\org.openni\openni\ivy-1.5.4.0.xml.original" origin-is-local="false" origin-location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/org.openni/openni/1.5.4.0/ivy.xml"/>
+				<caller organisation="org.openni" name="openni-caller" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working"/>
+				<artifacts>
+					<artifact name="x86.32.windows/OpenNI.jni" type="native" ext="dll" status="successful" details="" size="108032" time="1044" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\org.openni\openni\natives\x86.32.windows\OpenNI.jni-1.5.4.0.dll">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/org.openni/openni/1.5.4.0/x86.32.windows/OpenNI.jni.dll"/>
+					</artifact>
+					<artifact name="x86.32.windows/OpenNI" type="native" ext="dll" status="successful" details="" size="312832" time="1161" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\org.openni\openni\natives\x86.32.windows\OpenNI-1.5.4.0.dll">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/org.openni/openni/1.5.4.0/x86.32.windows/OpenNI.dll"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

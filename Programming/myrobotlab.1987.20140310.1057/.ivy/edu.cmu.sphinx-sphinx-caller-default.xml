@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="edu.cmu.sphinx"
+		module="sphinx-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20140422200714"/>
+	<dependencies>
+		<module organisation="edu.cmu.sphinx" name="sphinx">
+			<revision name="4-1.0beta6" status="release" pubdate="20120303061406" resolver="public-remote" artresolver="public-remote" downloaded="true" searched="true" default="false" conf="runtime, x86.32.windows" position="0">
+				<metadata-artifact status="successful" details="" size="832" time="528" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\ivy-4-1.0beta6.xml" searched="true" original-local-location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\ivy-4-1.0beta6.xml.original" origin-is-local="false" origin-location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/edu.cmu.sphinx/sphinx/4-1.0beta6/ivy.xml"/>
+				<caller organisation="edu.cmu.sphinx" name="sphinx-caller" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working"/>
+				<artifacts>
+					<artifact name="WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz" type="jar" ext="jar" status="successful" details="" size="11126462" time="4645" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\jars\WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz-4-1.0beta6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/edu.cmu.sphinx/sphinx/4-1.0beta6/WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz.jar"/>
+					</artifact>
+					<artifact name="WSJ_8gau_13dCep_8kHz_31mel_200Hz_3500Hz" type="jar" ext="jar" status="successful" details="" size="11086139" time="3677" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\jars\WSJ_8gau_13dCep_8kHz_31mel_200Hz_3500Hz-4-1.0beta6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/edu.cmu.sphinx/sphinx/4-1.0beta6/WSJ_8gau_13dCep_8kHz_31mel_200Hz_3500Hz.jar"/>
+					</artifact>
+					<artifact name="sphinx4" type="jar" ext="jar" status="successful" details="" size="867040" time="950" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\jars\sphinx4-4-1.0beta6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/edu.cmu.sphinx/sphinx/4-1.0beta6/sphinx4.jar"/>
+					</artifact>
+					<artifact name="batch" type="jar" ext="jar" status="successful" details="" size="182263" time="935" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\jars\batch-4-1.0beta6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/edu.cmu.sphinx/sphinx/4-1.0beta6/batch.jar"/>
+					</artifact>
+					<artifact name="tags" type="jar" ext="jar" status="successful" details="" size="8719" time="717" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\jars\tags-4-1.0beta6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/edu.cmu.sphinx/sphinx/4-1.0beta6/tags.jar"/>
+					</artifact>
+					<artifact name="TIDIGITS_8gau_13dCep_16k_40mel_130Hz_6800Hz" type="jar" ext="jar" status="successful" details="" size="1411293" time="1039" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\jars\TIDIGITS_8gau_13dCep_16k_40mel_130Hz_6800Hz-4-1.0beta6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/edu.cmu.sphinx/sphinx/4-1.0beta6/TIDIGITS_8gau_13dCep_16k_40mel_130Hz_6800Hz.jar"/>
+					</artifact>
+					<artifact name="jsapi-1.0-base" type="jar" ext="jar" status="successful" details="" size="80982" time="772" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\edu.cmu.sphinx\sphinx\jars\jsapi-1.0-base-4-1.0beta6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/edu.cmu.sphinx/sphinx/4-1.0beta6/jsapi-1.0-base.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="net.sourceforge.opencv"
+		module="opencv-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20140422200703"/>
+	<dependencies>
+		<module organisation="net.sourceforge.opencv" name="opencv">
+			<revision name="2.4.6" status="release" pubdate="20140119181044" resolver="public-remote" artresolver="public-remote" downloaded="true" searched="true" default="false" conf="runtime, x86.32.windows" position="0">
+				<metadata-artifact status="successful" details="" size="1290" time="564" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\net.sourceforge.opencv\opencv\ivy-2.4.6.xml" searched="true" original-local-location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\net.sourceforge.opencv\opencv\ivy-2.4.6.xml.original" origin-is-local="false" origin-location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/net.sourceforge.opencv/opencv/2.4.6/ivy.xml"/>
+				<caller organisation="net.sourceforge.opencv" name="opencv-caller" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working"/>
+				<artifacts>
+					<artifact name="lbpcascades" type="zip" ext="zip" status="successful" details="" size="35532" time="811" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\net.sourceforge.opencv\opencv\zips\lbpcascades-2.4.6.zip">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/net.sourceforge.opencv/opencv/2.4.6/lbpcascades.zip"/>
+					</artifact>
+					<artifact name="opencv-2.4.6.0-windows-x86" type="jar" ext="jar" status="successful" details="" size="10693875" time="3840" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\net.sourceforge.opencv\opencv\jars\opencv-2.4.6.0-windows-x86-2.4.6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/net.sourceforge.opencv/opencv/2.4.6/opencv-2.4.6.0-windows-x86.jar"/>
+					</artifact>
+					<artifact name="hogcascades" type="zip" ext="zip" status="successful" details="" size="23671" time="739" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\net.sourceforge.opencv\opencv\zips\hogcascades-2.4.6.zip">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/net.sourceforge.opencv/opencv/2.4.6/hogcascades.zip"/>
+					</artifact>
+					<artifact name="haarcascades" type="zip" ext="zip" status="successful" details="" size="2318446" time="1455" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\net.sourceforge.opencv\opencv\zips\haarcascades-2.4.6.zip">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/net.sourceforge.opencv/opencv/2.4.6/haarcascades.zip"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

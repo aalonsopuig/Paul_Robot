@@ -1,0 +1,13 @@
+<openCV>
+   <name>i01.opencv</name>
+   <allowDisplay>true</allowDisplay>
+   <videoProcessor>
+      <inputSource>camera</inputSource>
+      <grabberType>com.googlecode.javacv.OpenCVFrameGrabber</grabberType>
+      <getDepth>false</getDepth>
+      <cameraIndex>0</cameraIndex>
+      <inputFile>http://localhost/videostream.cgi</inputFile>
+      <pipelineSelected></pipelineSelected>
+      <publishOpenCVData>true</publishOpenCVData>
+   </videoProcessor>
+</openCV>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+    <info organisation="org.openni" module="openni" revision="1.5.4.0" status="release" publication="20140119181226">
+    </info>
+    <configurations>
+        <conf name="public"/>
+		<conf name="runtime"/>
+		<conf name="armv6.hfp.32.linux"/>
+		<conf name="armv7.32.linux"/>
+		<conf name="x86.32.linux"/>
+		<conf name="x86.64.linux"/>
+		<conf name="x86.32.mac"/>
+		<conf name="x86.64.mac"/>
+		<conf name="x86.32.windows"/>
+		<conf name="x86.64.windows"/>
+    </configurations>
+    <publications>
+    
+        <artifact name="armv6.hfp.32.linux/libnimCodecs" type="native" ext="so" conf="armv6.hfp.32.linux"/>
+        <artifact name="armv6.hfp.32.linux/libnimMockNodes" type="native" ext="so" conf="armv6.hfp.32.linux"/>
+        <artifact name="armv6.hfp.32.linux/libnimRecorder" type="native" ext="so" conf="armv6.hfp.32.linux"/>
+        <artifact name="armv6.hfp.32.linux/libOpenNI.jni" type="native" ext="so" conf="armv6.hfp.32.linux"/>
+        <artifact name="armv6.hfp.32.linux/libOpenNI" type="native" ext="so" conf="armv6.hfp.32.linux"/>
+        <artifact name="armv6.hfp.32.linux/org.OpenNI" type="jar" conf="armv6.hfp.32.linux"/>    
+
+        <artifact name="x86.32.mac/libnimCodecs" type="native" ext="dylib" conf="x86.32.mac"/>
+        <artifact name="x86.32.mac/libnimMockNodes" type="native" ext="dylib" conf="x86.32.mac"/>
+        <artifact name="x86.32.mac/libnimRecorder" type="native" ext="dylib" conf="x86.32.mac"/>
+        <artifact name="x86.32.mac/libOpenNI.jni" type="native" ext="dylib" conf="x86.32.mac"/>
+        <artifact name="x86.32.mac/libOpenNI" type="native" ext="dylib" conf="x86.32.mac"/>
+        <artifact name="x86.32.mac/org.OpenNI" type="jar" conf="x86.32.mac"/>    
+        
+        <artifact name="x86.32.linux/libnimCodecs" type="native" ext="so" conf="x86.32.linux"/>
+        <artifact name="x86.32.linux/libnimMockNodes" type="native" ext="so" conf="x86.32.linux"/>
+        <artifact name="x86.32.linux/libnimRecorder" type="native" ext="so" conf="x86.32.linux"/>
+        <artifact name="x86.32.linux/libOpenNI.jni" type="native" ext="so" conf="x86.32.linux"/>
+        <artifact name="x86.32.linux/libOpenNI" type="native" ext="so" conf="x86.32.linux"/>
+        <artifact name="x86.32.linux/org.OpenNI" type="jar" conf="x86.32.linux"/>
+        
+        <artifact name="x86.64.linux/libnimCodecs" type="native" ext="so" conf="x86.64.linux"/>
+        <artifact name="x86.64.linux/libnimMockNodes" type="native" ext="so" conf="x86.64.linux"/>
+        <artifact name="x86.64.linux/libnimRecorder" type="native" ext="so" conf="x86.64.linux"/>
+        <artifact name="x86.64.linux/libOpenNI.jni" type="native" ext="so" conf="x86.64.linux"/>
+        <artifact name="x86.64.linux/libOpenNI" type="native" ext="so" conf="x86.64.linux"/>
+        <artifact name="x86.64.linux/org.OpenNI" type="jar" conf="x86.64.linux"/>        
+        
+        <artifact name="x86.32.windows/OpenNI.jni" type="native" ext="dll" conf="x86.32.windows"/>
+        <artifact name="x86.32.windows/OpenNI" type="native" ext="dll" conf="x86.32.windows"/>
+        
+        <artifact name="x86.64.windows/org.OpenNI" type="jar" conf="x86.64.windows"/>
+        <artifact name="x86.64.windows/OpenNI.jni64" type="native" ext="dll" conf="x86.64.windows"/>
+        <artifact name="x86.64.windows/OpenNI64" type="native" ext="dll" conf="x86.64.windows"/>
+        </publications>
+</ivy-module>

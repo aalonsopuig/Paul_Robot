@@ -1,0 +1,428 @@
+0    [main] INFO  class org.myrobotlab.service.Runtime  - -service gui GUIService python Python 
+6    [main] INFO  class org.myrobotlab.service.Runtime  - attempting to invoke : org.myrobotlab.service.GUIService named gui
+7    [main] INFO  class org.myrobotlab.service.Runtime  - loader for this class sun.misc.Launcher.AppClassLoader
+7    [main] INFO  class org.myrobotlab.service.Runtime  - parent sun.misc.Launcher.ExtClassLoader
+7    [main] INFO  class org.myrobotlab.service.Runtime  - system class loader sun.misc.Launcher$AppClassLoader@7ced01
+7    [main] INFO  class org.myrobotlab.service.Runtime  - parent should be nullsun.misc.Launcher.ExtClassLoader
+7    [main] INFO  class org.myrobotlab.service.Runtime  - thread context sun.misc.Launcher.AppClassLoader
+7    [main] INFO  class org.myrobotlab.service.Runtime  - thread context parent sun.misc.Launcher.ExtClassLoader
+8    [main] INFO  class org.myrobotlab.service.Runtime  - refreshing classloader
+182  [main] INFO  class org.myrobotlab.framework.Service  - %s loading %d non-routable methods
+361  [main] INFO  class org.myrobotlab.framework.Service  - ---------------normalized-------------------
+361  [main] INFO  class org.myrobotlab.framework.Service  - ivy [runtime,x86.32.windows]
+361  [main] INFO  class org.myrobotlab.framework.Service  - os.name [Windows 7] getOS [windows]
+362  [main] INFO  class org.myrobotlab.framework.Service  - os.arch [x86] getArch [x86]
+362  [main] INFO  class org.myrobotlab.framework.Service  - getBitness [32]
+363  [main] INFO  class org.myrobotlab.framework.Service  - java.vm.name [Java HotSpot(TM) Client VM] getVMName [hotspot]
+374  [main] INFO  class org.myrobotlab.framework.Service  - version [1695.20130913.0508
+]
+375  [main] INFO  class org.myrobotlab.framework.Service  - /resource [jar:file:/D:/Dropbox/3dprinter/Robot%20Inmoov/Programming/myrobotlab.1695.20130913.0508/libraries/jar/myrobotlab.jar!/resource]
+376  [main] INFO  class org.myrobotlab.framework.Service  - jar path [D:/Dropbox/3dprinter/Robot%20Inmoov/Programming/myrobotlab.1695.20130913.0508/libraries/jar/myrobotlab.jar]
+376  [main] INFO  class org.myrobotlab.framework.Service  - sun.arch.data.model [32]
+376  [main] INFO  class org.myrobotlab.framework.Service  - ---------------non-normalized---------------
+377  [main] INFO  class org.myrobotlab.framework.Service  - java.vm.name [Java HotSpot(TM) Client VM]
+378  [main] INFO  class org.myrobotlab.framework.Service  - java.vm.version [24.55-b03]
+378  [main] INFO  class org.myrobotlab.framework.Service  - java.vm.vendor [Oracle Corporation]
+378  [main] INFO  class org.myrobotlab.framework.Service  - java.vm.version [24.55-b03]
+378  [main] INFO  class org.myrobotlab.framework.Service  - java.vm.vendor [1.7.0_55-b14]
+378  [main] INFO  class org.myrobotlab.framework.Service  - java.home [C:\Program Files (x86)\Java\jre7]
+379  [main] INFO  class org.myrobotlab.framework.Service  - os.version [6.1]
+379  [main] INFO  class org.myrobotlab.framework.Service  - java.class.path [libraries/jar/autocomplete.jar;libraries/jar/batch.jar;libraries/jar/commons-codec-1.6.jar;libraries/jar/commons-logging-1.1.1.jar;libraries/jar/fluent-hc-4.2.5.jar;libraries/jar/freetts.jar;libraries/jar/gson-1.7.1.jar;libraries/jar/httpclient-4.2.5.jar;libraries/jar/httpclient-cache-4.2.5.jar;libraries/jar/httpcore-4.2.4.jar;libraries/jar/httpmime-4.2.5.jar;libraries/jar/ivy.jar;libraries/jar/javacpp.jar;libraries/jar/javacv-windows-x86.jar;libraries/jar/javacv.jar;libraries/jar/java_websocket.jar;libraries/jar/jgraphx.jar;libraries/jar/jl1.0.1.jar;libraries/jar/jna.jar;libraries/jar/jsapi-1.0-base.jar;libraries/jar/jsapi.jar;libraries/jar/jython.jar;libraries/jar/log4j-1.2.14.jar;libraries/jar/myrobotlab.jar;libraries/jar/opencv-2.4.6.0-windows-x86.jar;libraries/jar/rsyntaxtextarea.jar;libraries/jar/RXTXcomm.jar;libraries/jar/simple-xml-2.5.3.jar;libraries/jar/simple-xml-2.7.jar;libraries/jar/slf4j-api-1.6.1.jar;libraries/jar/slf4j-log4j12-1.6.1.jar;libraries/jar/sphinx4.jar;libraries/jar/tags.jar;libraries/jar/TIDIGITS_8gau_13dCep_16k_40mel_130Hz_6800Hz.jar;libraries/jar/WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz.jar;libraries/jar/WSJ_8gau_13dCep_8kHz_31mel_200Hz_3500Hz.jar;libraries/jar/x86.64.windows/*;libraries/jar/x86.32.windows/*;]
+379  [main] INFO  class org.myrobotlab.framework.Service  - java.library.path [libraries/native/x86.32.windows;libraries/native/x86.64.windows]
+379  [main] INFO  class org.myrobotlab.framework.Service  - user.dir [D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1695.20130913.0508]
+381  [main] INFO  class org.myrobotlab.framework.Service  - total mem [15] Mb
+381  [main] INFO  class org.myrobotlab.framework.Service  - total free [13] Mb
+384  [main] INFO  class org.myrobotlab.net.CommunicationManager  - instanciating a org.myrobotlab.net.CommObjectStreamOverTCP
+1100 [main] INFO  class org.myrobotlab.framework.Service  - %s loading %d non-routable methods
+1107 [main] INFO  class org.myrobotlab.net.CommunicationManager  - instanciating a org.myrobotlab.net.CommObjectStreamOverTCP
+1345 [main] INFO  class org.myrobotlab.service.Runtime  - returning org.myrobotlab.service.GUIService
+1346 [main] INFO  class org.myrobotlab.service.Runtime  - attempting to invoke : org.myrobotlab.service.Python named python
+1346 [main] INFO  class org.myrobotlab.service.Runtime  - loader for this class sun.misc.Launcher.AppClassLoader
+1347 [main] INFO  class org.myrobotlab.service.Runtime  - parent sun.misc.Launcher.ExtClassLoader
+1347 [main] INFO  class org.myrobotlab.service.Runtime  - system class loader sun.misc.Launcher$AppClassLoader@7ced01
+1347 [main] INFO  class org.myrobotlab.service.Runtime  - parent should be nullsun.misc.Launcher.ExtClassLoader
+1347 [main] INFO  class org.myrobotlab.service.Runtime  - thread context sun.misc.Launcher.AppClassLoader
+1347 [main] INFO  class org.myrobotlab.service.Runtime  - thread context parent sun.misc.Launcher.ExtClassLoader
+1347 [main] INFO  class org.myrobotlab.service.Runtime  - refreshing classloader
+1387 [main] INFO  class org.myrobotlab.framework.Service  - %s loading %d non-routable methods
+1390 [main] INFO  class org.myrobotlab.net.CommunicationManager  - instanciating a org.myrobotlab.net.CommObjectStreamOverTCP
+1394 [main] INFO  org.myrobotlab.service.Python  - exec from time import sleep
+from org.myrobotlab.service import Runtime
+from org.myrobotlab.service import Python
+python = Runtime.getServiceWrapper("python").service
+from org.myrobotlab.service import GUIService
+gui = Runtime.getServiceWrapper("gui").service
+from org.myrobotlab.service import Runtime
+runtime = Runtime.getServiceWrapper("runtime").service
+
+10299 [main] INFO  class org.myrobotlab.service.Runtime  - returning org.myrobotlab.service.Python
+10309 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.registered to python.registered
+11091 [main] INFO  org.myrobotlab.service.GUIService  - buildTabPanels service count 3
+11111 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+11303 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+11303 [main] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 3
+11389 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+11732 [gui] INFO  class org.myrobotlab.framework.Service  - adding addListener from gui.publishStatus to gui.getStatus
+11923 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+11924 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+11924 [main] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 3
+11925 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+11930 [main] INFO  org.myrobotlab.service.GUIService  - org.myrobotlab.control.TabControl[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=gui,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+12017 [main] INFO  org.myrobotlab.service.GUIService  - here
+12709 [main] INFO  org.myrobotlab.control.ServiceGUI  - D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1695.20130913.0508\.myrobotlab\untitled.1.py
+13160 [python] INFO  class org.myrobotlab.framework.Service  - adding addListener from python.publishState to gui.getState
+13162 [python] INFO  class org.myrobotlab.framework.Service  - adding addListener from python.finishedExecutingScript to gui.finishedExecutingScript
+13162 [python] INFO  class org.myrobotlab.framework.Service  - adding addListener from python.publishStdOut to gui.getStdOut
+13163 [python] INFO  class org.myrobotlab.framework.Service  - adding addListener from python.appendScript to gui.appendScript
+13163 [python] INFO  class org.myrobotlab.framework.Service  - adding addListener from python.startRecording to gui.startRecording
+13167 [python] INFO  org.myrobotlab.service.Python  - exec import sys
+from javax.swing import JFrame
+from javax.swing import JPanel
+from javax.swing import JLabel
+from javax.swing import JTextArea
+from javax.swing import JScrollPane
+from javax.swing import JTabbedPane
+from javax.swing import WindowConstants
+from java.awt import BorderLayout
+from java.lang import Boolean
+
+# myService is a local variable
+# created to point to this Python
+# service
+
+class Console:
+
+  def __init__(self):
+    self.stdout = None
+    self.stderr = None
+#    frame = JFrame("Python Console")
+#    frame.setSize(400, 300)
+#    frame.setLayout(BorderLayout())
+
+#    tabPane = JTabbedPane(JTabbedPane.TOP)
+
+#    label = JLabel("<html><br>This is a tab1</html>")
+#    panel1 = JPanel(BorderLayout())
+#    panel1.add(label)
+#    log = JTextArea(20, 40)
+#    log.setEditable(Boolean("false"))
+#    self.log = log
+#    panel1.add(JScrollPane(log))
+#    tabPane.addTab("console", panel1)
+
+    # panel2 = JPanel()
+    # panel2.add(label2)
+    # tabPane.addTab("errors", panel2)
+
+#    frame.add(tabPane)
+    #frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE)
+#    frame.setVisible(True)
+
+  def write(self,string):
+    myService.invoke("publishStdOut", string)
+    #myService.publishStdOut(string)
+    #self.log.append(string)
+    
+  def attach(self):
+    if (self.stdout == None):    
+      self.stdout = sys.stdout
+      self.stderr = sys.stderr
+      sys.stdout = self
+      sys.stderr = self
+   
+  def detach(self):
+    if (self.stdout != None):
+      sys.stdout = self.stdout
+      sys.stderr = self.stderr
+      self.stdout = None
+      self.stderr = None
+    
+console = Console()
+console.attach()
+
+13170 [python] INFO  class org.myrobotlab.framework.Service  - adding addListener from python.publishStatus to gui.getStatus
+13396 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+13397 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+13397 [main] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 3
+13398 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+13402 [main] INFO  org.myrobotlab.service.GUIService  - org.myrobotlab.control.TabControl[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=python,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+13648 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+13648 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+13648 [main] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 3
+13651 [main] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+13656 [main] INFO  org.myrobotlab.service.GUIService  - org.myrobotlab.control.TabControl[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=runtime,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+13678 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.resolveSuccess to gui.resolveSuccess
+13679 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.resolveError to gui.resolveError
+13680 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.resolveBegin to gui.resolveBegin
+13680 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.resolveEnd to gui.resolveEnd
+13681 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.newArtifactsDownloaded to gui.newArtifactsDownloaded
+13681 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.registered to gui.registered
+13682 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.released to gui.released
+13683 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.failedDependency to gui.failedDependency
+13684 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.proposedUpdates to gui.proposedUpdates
+13685 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.getServiceShortClassNames to gui.onPossibleServicesRefresh
+13686 [runtime] INFO  class org.myrobotlab.framework.Service  - adding addListener from runtime.publishStatus to gui.getStatus
+13701 [gui] INFO  org.myrobotlab.control.RuntimeGUI  - here
+14281 [main] INFO  org.myrobotlab.service.GUIService  - class org.apache.log4j.RollingFileAppender
+2954439 [AWT-EventQueue-0] INFO  class org.myrobotlab.framework.ServiceInfo  - here
+54452 [AWT-EventQueue-0] INFO  class org.myrobotlab.framework.ServiceInfo  - here
+79053 [AWT-EventQueue-0] INFO  org.myrobotlab.control.widget.FileUtil  - Loaded: D:\Dropbox\3dprinter\Robot Inmoov\Programming\Python\inmoov2.ear and mouth talk.py
+79209 [AWT-EventQueue-0] INFO  org.myrobotlab.control.ServiceGUI  - D:\Dropbox\3dprinter\Robot Inmoov\Programming\Python\inmoov2.ear and mouth talk.py
+114265 [python] INFO  org.myrobotlab.service.Python  - exec #inmoov2.ear and mouth talk
+headPort = "COM10"
+
+i01 = Runtime.createAndStart("i01", "InMoov")
+head = i01.startHead(headPort)
+#neck = i01.getHeadTracking()
+#neck.faceDetect()
+
+#eyes = i01.getEyesTracking()
+#eyes.faceDetect()
+############################################################
+#if needed we can tweak the default settings with these lines
+i01.head.jaw.setMinMax(6,30)
+i01.head.mouthControl.setmouth(6,30)
+############################################################
+
+ear = runtime.createAndStart("ear","Sphinx")
+
+
+ear.attach(i01.head.mouthControl.mouth)
+ear.addCommand("attach head", "i01.head", "attach")
+ear.addCommand("disconnect head", "i01.head", "detach")
+
+ear.addCommand("manual", ear.getName(), "lockOutAllGrammarExcept", "voice control")
+ear.addCommand("voice control", ear.getName(), "clearLock")
+ 
+ear.addComfirmations("yes", "correct", "yeah", "ya")
+ear.addNegations("no", "wrong", "nope", "nah")
+
+# all commands MUST be before startListening
+ear.startListening()
+114341 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - loader for this class sun.misc.Launcher.AppClassLoader
+114342 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - parent sun.misc.Launcher.ExtClassLoader
+114343 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - system class loader sun.misc.Launcher$AppClassLoader@107077e
+114346 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - parent should be nullsun.misc.Launcher.ExtClassLoader
+114346 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - thread context sun.misc.Launcher.AppClassLoader
+114347 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - thread context parent sun.misc.Launcher.ExtClassLoader
+114347 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - refreshing classloader
+114379 [Thread-10] INFO  class org.myrobotlab.framework.Service  - %s loading %d non-routable methods
+114399 [Thread-10] INFO  class org.myrobotlab.net.CommunicationManager  - instanciating a org.myrobotlab.net.CommObjectStreamOverTCP
+114400 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - returning org.myrobotlab.service.InMoov
+114400 [python] INFO  org.myrobotlab.service.Python  - exec from org.myrobotlab.service import InMoov
+i01 = Runtime.getServiceWrapper("i01").service
+
+114405 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - loader for this class sun.misc.Launcher.AppClassLoader
+114406 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - parent sun.misc.Launcher.ExtClassLoader
+114407 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - system class loader sun.misc.Launcher$AppClassLoader@107077e
+114407 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - parent should be nullsun.misc.Launcher.ExtClassLoader
+114408 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - thread context sun.misc.Launcher.AppClassLoader
+114409 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - thread context parent sun.misc.Launcher.ExtClassLoader
+114410 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - refreshing classloader
+114528 [Thread-10] INFO  class org.myrobotlab.framework.Service  - %s loading %d non-routable methods
+114532 [Thread-10] INFO  class org.myrobotlab.net.CommunicationManager  - instanciating a org.myrobotlab.net.CommObjectStreamOverTCP
+114533 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - returning org.myrobotlab.service.Sphinx
+114535 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - loader for this class sun.misc.Launcher.AppClassLoader
+114535 [python] INFO  org.myrobotlab.service.Python  - exec from org.myrobotlab.service import Sphinx
+ear = Runtime.getServiceWrapper("ear").service
+
+114536 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - parent sun.misc.Launcher.ExtClassLoader
+114537 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - system class loader sun.misc.Launcher$AppClassLoader@107077e
+114538 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - parent should be nullsun.misc.Launcher.ExtClassLoader
+114538 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - thread context sun.misc.Launcher.AppClassLoader
+114538 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - thread context parent sun.misc.Launcher.ExtClassLoader
+114539 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - refreshing classloader
+114562 [Thread-10] INFO  class org.myrobotlab.framework.Service  - %s loading %d non-routable methods
+114566 [Thread-10] INFO  class org.myrobotlab.net.CommunicationManager  - instanciating a org.myrobotlab.net.CommObjectStreamOverTCP
+114569 [python] INFO  org.myrobotlab.service.Python  - exec from org.myrobotlab.service import Speech
+mouth = Runtime.getServiceWrapper("mouth").service
+
+114679 [Thread-10] INFO  org.myrobotlab.service.Speech  - Using voice: audrey
+114685 [Thread-10] INFO  class org.myrobotlab.service.Runtime  - returning org.myrobotlab.service.Speech
+114690 [Thread-10] INFO  org.myrobotlab.service.Sphinx  - attached Speech service mouth to Sphinx service ear with default message routes
+114691 [Thread-10] WARN  class org.myrobotlab.framework.Service  - startService request: service python is already running
+114696 [mouth] INFO  class org.myrobotlab.framework.Service  - adding addListener from mouth.isSpeaking to ear.isSpeaking
+114708 [ear] INFO  class org.myrobotlab.framework.Service  - adding addListener from ear.requestConfirmation to mouth.requestConfirmation
+114709 [ear] INFO  class org.myrobotlab.framework.Service  - adding addListener from ear.confirmed to mouth.speak
+114723 [ear] INFO  class org.myrobotlab.framework.Service  - adding addListener from ear.negated to mouth.speak
+114733 [i01] INFO  class org.myrobotlab.framework.Service  - adding addListener from i01.publishState to gui.getState
+114734 [i01] INFO  class org.myrobotlab.framework.Service  - adding addListener from i01.publishStatus to gui.getStatus
+114762 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+114762 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+114763 [gui] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 6
+114765 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+114802 [gui] INFO  org.myrobotlab.service.GUIService  - org.myrobotlab.control.TabControl[,249,3,17x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=i01,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+114935 [Thread-10] ERROR org.myrobotlab.logging.Logging  - ------
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+AttributeError: 'org.myrobotlab.service.InMoov' object has no attribute 'startHead'
+
+	at org.python.core.Py.AttributeError(Py.java:166)
+	at org.python.core.PyObject.noAttributeError(PyObject.java:930)
+	at org.python.core.PyObject.object___getattribute__(PyObject.java:3692)
+	at org.python.core.PyObject$object___getattribute___exposer.__call__(Unknown Source)
+	at org.python.core.Deriveds.__findattr_ex__(Deriveds.java:59)
+	at org.python.core.PyObjectDerived.__findattr_ex__(PyObjectDerived.java:983)
+	at org.python.core.PyObject.__getattr__(PyObject.java:923)
+	at org.python.pycode._pyx3.f$0(<string>:31)
+	at org.python.pycode._pyx3.call_function(<string>)
+	at org.python.core.PyTableCode.call(PyTableCode.java:165)
+	at org.python.core.PyCode.call(PyCode.java:18)
+	at org.python.core.Py.runCode(Py.java:1261)
+	at org.python.core.Py.exec(Py.java:1305)
+	at org.python.util.PythonInterpreter.exec(PythonInterpreter.java:206)
+	at org.myrobotlab.service.Python$PIThread.run(Unknown Source)
+------
+
+114941 [Thread-10] ERROR class org.myrobotlab.framework.Service  - Python error
+114970 [ear] INFO  class org.myrobotlab.framework.Service  - adding addListener from ear.publishStatus to gui.getStatus
+115025 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+115025 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+115026 [gui] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 6
+115028 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+115035 [gui] INFO  org.myrobotlab.service.GUIService  - org.myrobotlab.control.TabControl[,287,3,19x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=ear,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+115102 [mouth] INFO  class org.myrobotlab.framework.Service  - adding addListener from mouth.publishStatus to gui.getStatus
+115157 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+115158 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+115158 [gui] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 6
+115160 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+115168 [gui] INFO  org.myrobotlab.service.GUIService  - org.myrobotlab.control.TabControl[,327,3,36x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mouth,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+196360 [AWT-EventQueue-0] INFO  org.myrobotlab.control.RuntimeGUI  - ******************popUpTrigger*********************
+200578 [runtime] INFO  class org.myrobotlab.service.Runtime  - loader for this class sun.misc.Launcher.AppClassLoader
+200579 [runtime] INFO  class org.myrobotlab.service.Runtime  - parent sun.misc.Launcher.ExtClassLoader
+200579 [runtime] INFO  class org.myrobotlab.service.Runtime  - system class loader sun.misc.Launcher$AppClassLoader@107077e
+200579 [runtime] INFO  class org.myrobotlab.service.Runtime  - parent should be nullsun.misc.Launcher.ExtClassLoader
+200580 [runtime] INFO  class org.myrobotlab.service.Runtime  - thread context sun.misc.Launcher.AppClassLoader
+200580 [runtime] INFO  class org.myrobotlab.service.Runtime  - thread context parent sun.misc.Launcher.ExtClassLoader
+200580 [runtime] INFO  class org.myrobotlab.service.Runtime  - refreshing classloader
+200594 [runtime] INFO  class org.myrobotlab.framework.Service  - %s loading %d non-routable methods
+200601 [runtime] INFO  class org.myrobotlab.net.CommunicationManager  - instanciating a org.myrobotlab.net.CommObjectStreamOverTCP
+200601 [runtime] INFO  class org.myrobotlab.service.Runtime  - returning org.myrobotlab.service.Keyboard
+200602 [python] INFO  org.myrobotlab.service.Python  - exec from org.myrobotlab.service import Keyboard
+key = Runtime.getServiceWrapper("key").service
+
+200704 [key] INFO  class org.myrobotlab.framework.Service  - adding addListener from key.publishStatus to gui.getStatus
+200716 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+200716 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+200716 [gui] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 7
+200718 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+200726 [gui] INFO  org.myrobotlab.service.GUIService  - org.myrobotlab.control.TabControl[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=key,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+232350 [AWT-EventQueue-0] ERROR org.myrobotlab.control.GUIServiceOutMethodDialog  - method is 
+232353 [AWT-EventQueue-0] INFO  org.myrobotlab.control.GUIServiceOutMethodDialog  - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=comboBoxChanged,when=1398188762465,modifiers=Button1] on javax.swing.JComboBox[,0,0,0x0,invalid,layout=javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=]
+236761 [AWT-EventQueue-0] ERROR org.myrobotlab.control.GUIServiceOutMethodDialog  - method is saying (String)
+236763 [AWT-EventQueue-0] INFO  org.myrobotlab.control.GUIServiceOutMethodDialog  - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=comboBoxChanged,when=1398188767000,modifiers=Button1] on javax.swing.JComboBox[,0,0,279x25,layout=javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=saying (String)]
+246552 [AWT-EventQueue-0] ERROR org.myrobotlab.control.GUIServiceOutMethodDialog  - addCommand
+250241 [AWT-EventQueue-0] ERROR org.myrobotlab.control.GUIServiceOutMethodDialog  - keyCommand -> String
+252614 [AWT-EventQueue-0] ERROR org.myrobotlab.control.GUIServiceOutMethodDialog  - method is 
+252615 [AWT-EventQueue-0] INFO  org.myrobotlab.control.GUIServiceOutMethodDialog  - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=comboBoxChanged,when=1398188782840,modifiers=Button1] on javax.swing.JComboBox[,0,0,0x0,invalid,layout=javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=]
+263080 [AWT-EventQueue-0] ERROR org.myrobotlab.control.GUIServiceOutMethodDialog  - method is speak (String)
+263081 [AWT-EventQueue-0] INFO  org.myrobotlab.control.GUIServiceOutMethodDialog  - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=comboBoxChanged,when=1398188793320,modifiers=Button1] on javax.swing.JComboBox[,0,0,279x25,layout=javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=speak (String)]
+263084 [AWT-EventQueue-0] ERROR org.myrobotlab.control.GUIServiceOutMethodDialog  - MRLListener !!! {"outMethod":"keyCommand""name":"mouth""inMethod":"speak""paramType":"null"}
+263092 [key] INFO  class org.myrobotlab.framework.Service  - adding addListener from key.keyCommand to mouth.speak
+302020 [AWT-EventQueue-0] INFO  class org.myrobotlab.framework.ServiceInfo  - here
+302031 [AWT-EventQueue-0] INFO  class org.myrobotlab.framework.ServiceInfo  - here
+306895 [AWT-EventQueue-0] INFO  org.myrobotlab.control.ServiceGUI  - makeReadyForRelease
+306896 [AWT-EventQueue-0] INFO  org.myrobotlab.control.ServiceGUI  - checking script D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1695.20130913.0508\.myrobotlab\untitled.1.py
+306899 [AWT-EventQueue-0] INFO  org.myrobotlab.control.ServiceGUI  - checking script D:\Dropbox\3dprinter\Robot Inmoov\Programming\Python\inmoov2.ear and mouth talk.py
+306900 [AWT-EventQueue-0] INFO  org.myrobotlab.control.ServiceGUI  - saving script / file D:\Dropbox\3dprinter\Robot Inmoov\Programming\Python\inmoov2.ear and mouth talk.py
+306954 [gui] INFO  org.myrobotlab.service.GUIService  - removeTab
+306956 [gui] INFO  org.myrobotlab.service.GUIService  - removeTab new size 7
+306958 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - stopping service null/i01
+306959 [i01] ERROR org.myrobotlab.logging.Logging  - ------
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at org.myrobotlab.framework.Inbox.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+------
+
+306960 [i01] ERROR class org.myrobotlab.framework.Service  - 
+306960 [i01] WARN  class org.myrobotlab.framework.Service  - InMoov.publishStatus(String,null) :  NoSuchMethodException - attempting upcasting
+306960 [i01] WARN  class org.myrobotlab.framework.Service  - ouch! need to search through 179 methods
+306973 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - stopping service null/python
+306975 [python] ERROR org.myrobotlab.logging.Logging  - ------
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at org.myrobotlab.framework.Inbox.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+------
+
+306975 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - stopping service null/gui
+306975 [python] ERROR class org.myrobotlab.framework.Service  - 
+306976 [python] WARN  class org.myrobotlab.framework.Service  - Python.publishStatus(String,null) :  NoSuchMethodException - attempting upcasting
+306977 [python] WARN  class org.myrobotlab.framework.Service  - ouch! need to search through 139 methods
+306981 [python_input] ERROR org.myrobotlab.logging.Logging  - ------
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.myrobotlab.service.Python$InputQueueThread.run(Unknown Source)
+------
+
+307017 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildGraph
+307028 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-begin
+307028 [gui] INFO  org.myrobotlab.control.ServiceGUI  - GUIServiceGUI service count 7
+307041 [gui] INFO  org.myrobotlab.control.ServiceGUI  - buildLocalServiceGraph-end
+307046 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - stopping service null/ear
+307047 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - stopping service null/mouth
+307049 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - stopping service null/runtime
+307050 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - stopping service null/key
+307050 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - clearing hosts environments
+307051 [AWT-EventQueue-0] INFO  class org.myrobotlab.service.Runtime  - clearing registry
+307048 [ear] ERROR org.myrobotlab.logging.Logging  - ------
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at org.myrobotlab.framework.Inbox.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+------
+
+307056 [ear] ERROR class org.myrobotlab.framework.Service  - 
+307056 [runtime] ERROR org.myrobotlab.logging.Logging  - ------
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at org.myrobotlab.framework.Inbox.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+------
+
+307092 [runtime] ERROR class org.myrobotlab.framework.Service  - 
+307092 [runtime] WARN  class org.myrobotlab.framework.Service  - Runtime.publishStatus(String,null) :  NoSuchMethodException - attempting upcasting
+307052 [key] ERROR org.myrobotlab.logging.Logging  - ------
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at org.myrobotlab.framework.Inbox.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+------
+
+307097 [key] ERROR class org.myrobotlab.framework.Service  - 
+307097 [key] WARN  class org.myrobotlab.framework.Service  - Keyboard.publishStatus(String,null) :  NoSuchMethodException - attempting upcasting
+307098 [key] WARN  class org.myrobotlab.framework.Service  - ouch! need to search through 120 methods
+307052 [mouth] ERROR org.myrobotlab.logging.Logging  - ------
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at org.myrobotlab.framework.Inbox.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.getMsg(Unknown Source)
+	at org.myrobotlab.framework.Service.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+------
+
+307099 [mouth] ERROR class org.myrobotlab.framework.Service  - 
+307100 [mouth] WARN  class org.myrobotlab.framework.Service  - Speech.publishStatus(String,null) :  NoSuchMethodException - attempting upcasting
+307100 [mouth] WARN  class org.myrobotlab.framework.Service  - ouch! need to search through 136 methods
+307097 [runtime] WARN  class org.myrobotlab.framework.Service  - ouch! need to search through 201 methods
+307056 [ear] WARN  class org.myrobotlab.framework.Service  - Sphinx.publishStatus(String,null) :  NoSuchMethodException - attempting upcasting
+307107 [ear] WARN  class org.myrobotlab.framework.Service  - ouch! need to search through 140 methods

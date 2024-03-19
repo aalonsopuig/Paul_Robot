@@ -1,0 +1,8 @@
+<GUIService>
+   <name>gui</name>
+   <allowExport>true</allowExport>
+   <allowDisplay>true</allowDisplay>
+   <lastTabVisited>runtime</lastTabVisited>
+   <lastHost>127.0.0.1</lastHost>
+   <lastPort>6767</lastPort>
+</GUIService>

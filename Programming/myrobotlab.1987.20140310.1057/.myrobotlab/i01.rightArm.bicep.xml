@@ -1,0 +1,11 @@
+<servo>
+   <name>i01.rightArm.bicep</name>
+   <allowDisplay>true</allowDisplay>
+   <inputX>75.0</inputX>
+   <outputYMin>0.0</outputYMin>
+   <outputYMax>180.0</outputYMax>
+   <minX>0.0</minX>
+   <maxX>180.0</maxX>
+   <minY>90.0</minY>
+   <maxY>150.0</maxY>
+</servo>

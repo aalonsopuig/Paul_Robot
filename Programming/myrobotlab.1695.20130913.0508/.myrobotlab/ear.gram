@@ -1,0 +1,3 @@
+#JSGF V1.0;
+grammar ear;
+public <greet> = (all open | hand close | pinch mode | open pinch | hand open | hand rest | hand open two );

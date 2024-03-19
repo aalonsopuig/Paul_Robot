@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.googlecode.javacv"
+		module="javacv-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20140422200658"/>
+	<dependencies>
+		<module organisation="com.googlecode.javacv" name="javacv">
+			<revision name="0.6" status="release" pubdate="20140119180227" resolver="public-remote" artresolver="public-remote" downloaded="true" searched="true" default="false" conf="runtime, x86.32.windows" position="0">
+				<metadata-artifact status="successful" details="" size="971" time="561" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\com.googlecode.javacv\javacv\ivy-0.6.xml" searched="true" original-local-location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\com.googlecode.javacv\javacv\ivy-0.6.xml.original" origin-is-local="false" origin-location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/com.googlecode.javacv/javacv/0.6/ivy.xml"/>
+				<caller organisation="com.googlecode.javacv" name="javacv-caller" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working"/>
+				<artifacts>
+					<artifact name="javacv" type="jar" ext="jar" status="successful" details="" size="1146787" time="1366" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\com.googlecode.javacv\javacv\jars\javacv-0.6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/com.googlecode.javacv/javacv/0.6/javacv.jar"/>
+					</artifact>
+					<artifact name="javacpp" type="jar" ext="jar" status="successful" details="" size="145277" time="865" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\com.googlecode.javacv\javacv\jars\javacpp-0.6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/com.googlecode.javacv/javacv/0.6/javacpp.jar"/>
+					</artifact>
+					<artifact name="javacv-windows-x86" type="jar" ext="jar" status="successful" details="" size="1345391" time="1362" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1987.20140310.1057\.ivy\com.googlecode.javacv\javacv\jars\javacv-windows-x86-0.6.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/com.googlecode.javacv/javacv/0.6/javacv-windows-x86.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

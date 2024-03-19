@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+    <info organisation="edu.cmu.sphinx" module="sphinx" revision="4-1.0beta6" status="release" publication="20120303061406">
+    </info>
+    <configurations>
+        <conf name="public"/>
+		<conf name="runtime"/>
+		<conf name="armv6.hfp.32.linux"/>
+		<conf name="armv7.32.linux"/>
+		<conf name="x86.32.linux"/>
+		<conf name="x86.64.linux"/>
+		<conf name="x86.32.mac"/>
+		<conf name="x86.64.mac"/>
+		<conf name="x86.32.windows"/>
+		<conf name="x86.64.windows"/>
+    </configurations>
+    <publications>
+        <artifact name="batch" type="jar"/>
+        <artifact name="jsapi-1.0-base" type="jar"/>
+        <artifact name="sphinx4" type="jar"/>
+        <artifact name="tags" type="jar"/>
+        <artifact name="TIDIGITS_8gau_13dCep_16k_40mel_130Hz_6800Hz" type="jar"/>
+        <artifact name="WSJ_8gau_13dCep_8kHz_31mel_200Hz_3500Hz" type="jar"/>
+        <artifact name="WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz" type="jar"/>
+    </publications>
+</ivy-module>

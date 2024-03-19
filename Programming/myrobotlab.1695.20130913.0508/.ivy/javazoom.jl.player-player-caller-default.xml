@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="javazoom.jl.player"
+		module="player-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20140409135338"/>
+	<dependencies>
+		<module organisation="javazoom.jl.player" name="player">
+			<revision name="1.0.1" status="release" pubdate="20120225154830" resolver="public-remote" artresolver="public-remote" downloaded="true" searched="true" default="false" conf="runtime, x86.32.windows" position="0">
+				<metadata-artifact status="successful" details="" size="446" time="493" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1695.20130913.0508\.ivy\javazoom.jl.player\player\ivy-1.0.1.xml" searched="true" original-local-location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1695.20130913.0508\.ivy\javazoom.jl.player\player\ivy-1.0.1.xml.original" origin-is-local="false" origin-location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/javazoom.jl.player/player/1.0.1/ivy.xml"/>
+				<caller organisation="javazoom.jl.player" name="player-caller" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working"/>
+				<artifacts>
+					<artifact name="jl1.0.1" type="jar" ext="jar" status="successful" details="" size="105363" time="954" location="D:\Dropbox\3dprinter\Robot Inmoov\Programming\myrobotlab.1695.20130913.0508\.ivy\javazoom.jl.player\player\jars\jl1.0.1-1.0.1.jar">
+						<origin-location is-local="false" location="http://myrobotlab.googlecode.com/svn/trunk/myrobotlab/thirdParty/repo/javazoom.jl.player/player/1.0.1/jl1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

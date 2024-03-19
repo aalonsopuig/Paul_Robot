@@ -1,0 +1,11 @@
+<servo>
+   <name>i01.head.jaw</name>
+   <allowDisplay>true</allowDisplay>
+   <inputX>12.0</inputX>
+   <outputYMin>0.0</outputYMin>
+   <outputYMax>180.0</outputYMax>
+   <minX>0.0</minX>
+   <maxX>180.0</maxX>
+   <minY>10.0</minY>
+   <maxY>25.0</maxY>
+</servo>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+    <info organisation="net.sourceforge.opencv" module="opencv" revision="2.4.6" status="release" publication="20140119181044">
+    </info>
+    <configurations>
+        <conf name="public"/>
+		<conf name="runtime"/>
+		<conf name="armv6.hfp.32.linux"/>
+		<conf name="armv7.32.linux"/>
+		<conf name="x86.32.linux"/>
+		<conf name="x86.64.linux"/>
+		<conf name="x86.32.mac"/>
+		<conf name="x86.64.mac"/>
+		<conf name="x86.32.windows"/>
+		<conf name="x86.64.windows"/>
+    </configurations>
+    <publications>
+
+        <artifact name="haarcascades" type="zip" ext="zip" conf="*"/>
+        <artifact name="lbpcascades" type="zip" ext="zip" conf="*"/>
+        <artifact name="hogcascades" type="zip" ext="zip" conf="*"/>
+
+        <artifact name="opencv-2.4.6.1-linux-arm" type="jar" conf="armv6.hfp.32.linux"/>     
+
+        <!--  deprecated<artifact name="opencv-2.4.6.1-android-arm" type="jar" conf="armv6.hfp.32.linux"/>    -->  
+
+        <artifact name="opencv-2.4.6.1-linux-x86" type="jar" conf="x86.32.linux"/>       
+        <artifact name="opencv-2.4.6.1-linux-x86_64" type="jar" conf="x86.64.linux"/>      
+        <artifact name="opencv-2.4.6.0-windows-x86" type="jar" conf="x86.32.windows"/>
+        <artifact name="opencv-2.4.6.0-windows-x86_64" type="jar" conf="x86.64.windows"/>
+  
+        <artifact name="opencv-2.4.6.1-macosx-x86_64" type="jar" conf="x86.64.mac"/>
+ 
+    </publications>
+</ivy-module>
